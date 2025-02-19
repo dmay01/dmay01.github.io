@@ -1,1 +1,1 @@
-User-agent: * Disallow: Sitemap: https://dmay01.github.io/sitemap.xml
+User-agent: * Disallow: Sitemap: https://www.danielmay.me/sitemap.xml
