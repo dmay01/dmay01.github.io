@@ -46,6 +46,9 @@ ninja.data = [{
           section: "News",},{id: "news-i-have-started-a-new-position-as-a-predoc-researcher-at-the-hpc-research-group-at-tu-wien",
           title: 'I have started a new position as a PreDoc researcher at the HPC...',
           description: "",
+          section: "News",},{id: "news-our-poster-towards-energy-efficient-split-computing-a-hardware-software-co-design-perspective-has-been-accepted-at-eurosys-2025-looking-forward-to-presenting-in-rotterdam",
+          title: 'Our poster Towards Energy-Efficient Split Computing: A Hardware-Software Co-Design Perspective has been accepted...',
+          description: "",
           section: "News",},{
         id: 'social-bluesky',
         title: 'Bluesky',
