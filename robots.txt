@@ -1,1 +1,4 @@
-User-agent: * Disallow: Sitemap: https://www.danielmay.me/sitemap.xml
+User-agent: *
+Disallow:
+
+Sitemap: https://www.danielmay.me/sitemap.xml

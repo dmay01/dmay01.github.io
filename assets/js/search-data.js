@@ -37,7 +37,12 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "news-the-resulting-paper-of-my-bachelor-thesis-got-published-in-heilberufescience-symptom-score-of-the-dying-process-for-the-assessment-of-the-prognosis-of-the-dying-process-in-residents-of-nursing-homes-please-find-the-paper-here",
+        },{id: "books-the-godfather",
+          title: 'The Godfather',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/the_godfather/";
+            },},{id: "news-the-resulting-paper-of-my-bachelor-thesis-got-published-in-heilberufescience-symptom-score-of-the-dying-process-for-the-assessment-of-the-prognosis-of-the-dying-process-in-residents-of-nursing-homes-please-find-the-paper-here",
           title: 'The resulting paper of my bachelor thesis got published in HeilberufeScience: Symptom score...',
           description: "",
           section: "News",},{id: "news-i-received-the-netidee-scholarship-for-my-master-s-thesis-on-neural-network-splitting-for-energy-efficient-edge-ai-more-details-netidee-project-page",
