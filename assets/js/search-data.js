@@ -23,6 +23,20 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/publications/";
           },
+        },{id: "nav-supervision",
+          title: "supervision",
+          description: "ongoing thesis supervisions.",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/supervision/";
+          },
+        },{id: "nav-teaching",
+          title: "teaching",
+          description: "teaching activities.",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/teaching/";
+          },
         },{id: "nav-projects",
           title: "projects",
           description: "research projects I have been involved in as part of my research group.",
@@ -37,12 +51,7 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "books-the-godfather",
-          title: 'The Godfather',
-          description: "",
-          section: "Books",handler: () => {
-              window.location.href = "/books/the_godfather/";
-            },},{id: "news-the-resulting-paper-of-my-bachelor-thesis-got-published-in-heilberufescience-symptom-score-of-the-dying-process-for-the-assessment-of-the-prognosis-of-the-dying-process-in-residents-of-nursing-homes-please-find-the-paper-here",
+        },{id: "news-the-resulting-paper-of-my-bachelor-thesis-got-published-in-heilberufescience-symptom-score-of-the-dying-process-for-the-assessment-of-the-prognosis-of-the-dying-process-in-residents-of-nursing-homes-please-find-the-paper-here",
           title: 'The resulting paper of my bachelor thesis got published in HeilberufeScience: Symptom score...',
           description: "",
           section: "News",},{id: "news-i-received-the-netidee-scholarship-for-my-master-s-thesis-on-neural-network-splitting-for-energy-efficient-edge-ai-more-details-netidee-project-page",
@@ -53,6 +62,12 @@ ninja.data = [{
           description: "",
           section: "News",},{id: "news-our-poster-towards-energy-efficient-split-computing-a-hardware-software-co-design-perspective-has-been-accepted-at-eurosys-2025-looking-forward-to-presenting-in-rotterdam",
           title: 'Our poster Towards Energy-Efficient Split Computing: A Hardware-Software Co-Design Perspective has been accepted...',
+          description: "",
+          section: "News",},{id: "news-since-june-2025-our-group-is-the-research-unit-of-computational-sustainability-at-tu-wien-institute-of-computer-engineering-formerly-the-hpc-research-group-in-the-data-science-unit-institute-of-information-systems-engineering",
+          title: 'Since June 2025, our group is the Research Unit of Computational Sustainability at...',
+          description: "",
+          section: "News",},{id: "news-i-was-accepted-to-the-kth-summer-school-on-edge-ai-in-stockholm-which-will-take-place-on-1-4-september-2025-the-program-features-keynotes-technical-talks-and-hands-on-sessions-on-tinyml-intelligent-offloading-and-inference-federated-learning-and-trustworthy-edge-ai",
+          title: 'I was accepted to the KTH Summer School on Edge AI in Stockholm,...',
           description: "",
           section: "News",},{
         id: 'social-bluesky',
@@ -95,6 +110,13 @@ ninja.data = [{
         section: 'Socials',
         handler: () => {
           window.open("https://scholar.google.com/citations?user=Rjteug8AAAAJ", "_blank");
+        },
+      },{
+        id: 'social-work',
+        title: 'Work',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://informatics.tuwien.ac.at/people/daniel-may", "_blank");
         },
       },{
       id: 'light-theme',
