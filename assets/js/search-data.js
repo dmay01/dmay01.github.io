@@ -69,6 +69,9 @@ ninja.data = [{
           section: "News",},{id: "news-i-was-accepted-to-the-kth-summer-school-on-edge-ai-in-stockholm-which-will-take-place-on-1-4-september-2025-the-program-features-keynotes-technical-talks-and-hands-on-sessions-on-tinyml-intelligent-offloading-and-inference-federated-learning-and-trustworthy-edge-ai",
           title: 'I was accepted to the KTH Summer School on Edge AI in Stockholm,...',
           description: "",
+          section: "News",},{id: "news-shortlisted-top-3-for-the-tüv-austria-science-award-2025-with-my-master-thesis-on-energy-efficient-ai-using-edge-cloud-split-computing-more-details-tüv-at",
+          title: 'Shortlisted (Top 3) for the TÜV AUSTRIA Science Award 2025 with my master...',
+          description: "",
           section: "News",},{
         id: 'social-bluesky',
         title: 'Bluesky',
