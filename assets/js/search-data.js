@@ -72,6 +72,9 @@ ninja.data = [{
           section: "News",},{id: "news-shortlisted-top-3-for-the-tüv-austria-science-award-2025-with-my-master-thesis-on-energy-efficient-ai-using-edge-cloud-split-computing-more-details-tüv-at",
           title: 'Shortlisted (Top 3) for the TÜV AUSTRIA Science Award 2025 with my master...',
           description: "",
+          section: "News",},{id: "news-i-won-the-tüv-austria-science-award-2025-in-the-master-s-theses-category-for-my-work-on-energy-efficient-split-computing-contributing-to-sustainability-in-computation-more-details-are-available-on-tüv-at",
+          title: 'I won the TÜV AUSTRIA Science Award 2025 in the Master’s theses category...',
+          description: "",
           section: "News",},{
         id: 'social-bluesky',
         title: 'Bluesky',
