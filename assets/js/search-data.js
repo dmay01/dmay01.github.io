@@ -25,7 +25,7 @@ ninja.data = [{
           },
         },{id: "nav-supervision",
           title: "supervision",
-          description: "ongoing thesis supervisions.",
+          description: "ongoing and past thesis supervisions.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/supervision/";
