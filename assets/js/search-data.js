@@ -75,6 +75,12 @@ ninja.data = [{
           section: "News",},{id: "news-i-won-the-tüv-austria-science-award-2025-in-the-master-s-theses-category-for-my-work-on-energy-efficient-split-computing-contributing-to-sustainability-in-computation-more-details-are-available-on-tüv-at",
           title: 'I won the TÜV AUSTRIA Science Award 2025 in the Master’s theses category...',
           description: "",
+          section: "News",},{id: "news-i-was-invited-by-npoaustria-to-hold-a-workshop-on-the-energy-consumption-of-artificial-intelligence-more-details-are-available-here",
+          title: 'I was invited by npoAustria to hold a workshop on the energy consumption...',
+          description: "",
+          section: "News",},{id: "news-i-was-featured-in-the-young-researcher-spotlight-of-the-tu-career-center-magazine-the-interview-einfach-ausprobieren-und-dranbleiben-is-available-here",
+          title: 'I was featured in the Young Researcher Spotlight of the TU Career Center...',
+          description: "",
           section: "News",},{
         id: 'social-bluesky',
         title: 'Bluesky',
