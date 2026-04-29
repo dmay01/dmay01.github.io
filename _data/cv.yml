@@ -13,7 +13,7 @@
       institution: <a href="https://www.tuwien.at/">TU Wien</a>, Austria
       year: 2025 - now
       description:
-        - Working on AI and sustainability, exploring energy-efficient computing and optimization techniques in high-performance and edge AI systems.
+        - Working on energy-efficient AI systems, with a current focus on neuromorphic computing and intermediate representations for constrained and emerging hardware.
         - "<strong>Advisor</strong>: <a href='https://www.ec.tuwien.ac.at/~ivona/index.html'>Prof. Ivona Brandić</a>"
 
     - title: Dipl.-Ing. (equivalent to MSc), Business Informatics
@@ -77,21 +77,21 @@
       institution: <a href="https://www.tuwien.at/">TU Wien</a>, Austria
       year: 02/2025 - now
       description:
-        - I am part of the <a href="https://hpc.ec.tuwien.ac.at/">HPC Research Group</a> led by <a href="https://www.ec.tuwien.ac.at/~ivona/index.html">Prof. Ivona Brandić</a>.
-        - My research focuses on sustainability in AI, exploring energy-efficient computing and optimization techniques in high-performance and edge AI systems.
+        - I am part of the <a href="https://informatics.tuwien.ac.at/orgs/e191-05">Research Unit of Computational Sustainability</a> led by <a href="https://www.ec.tuwien.ac.at/~ivona/index.html">Prof. Ivona Brandić</a>.
+        - My research focuses on energy-efficient AI systems, with a current focus on neuromorphic computing and intermediate representations.
 
     - title: Research Assistant (Student Staff)
       institution: <a href="https://www.tuwien.at/">TU Wien</a>, Austria
       year: 02/2024 - 01/2025
       description:
-        - I am part of the <a href="https://hpc.ec.tuwien.ac.at/">HPC Research Group</a> led by <a href="https://www.ec.tuwien.ac.at/~ivona/index.html">Prof. Ivona Brandić</a>.
-        - My research focuses on energy-efficient computing and optimization techniques edge AI systems.
+        - I was part of the <a href="https://hpc.ec.tuwien.ac.at/">HPC Research Group</a> led by <a href="https://www.ec.tuwien.ac.at/~ivona/index.html">Prof. Ivona Brandić</a>.
+        - My research focused on energy-efficient computing and optimization techniques for edge AI systems.
 
     - title: Software Engineer
       institution: <a href="https://mycts.at/">myCTS</a>, Austria
       year: 01/2020 - 01/2026
       description:
-        - "Developing and maintaining customized software solutions with <a href='https://www.intersystems.com/'>Intersystems</a>."
+        - "Developing and maintaining customized software solutions with <a href='https://www.intersystems.com/'>InterSystems</a>."
 
     - title: Software Engineer
       institution: <a href="https://www.technologe.at/">Alumni Club of TGM</a>, Austria
@@ -128,8 +128,18 @@
     - "<strong>TÜV AUSTRIA Science Award</strong> by <a href='https://www.tuv.at/tuev-austria-wissenschaftspreis-2025-die-sieger-stehen-fest/'>TÜV AUSTRIA Group</a>, 2025. Awarded in the Master’s theses category for my work on energy-efficient split computing and sustainability in computation."
     - "<strong>netidee Scholarship Master’s Thesis</strong> by <a href='https://www.internetstiftung.at/'>Internet Foundation Austria</a>, 2024. Awarded for theses that contribute to a better, more open, and transparent Internet."
     - "<strong>Elevate Scholarship</strong> by <a href='https://www.palfinger.com/en-us'>Palfinger</a>, 2023. Awarded to the top master's student in Business Informatics among selected programs."
-    - "<strong>Seeds for the future Scholarship</strong> by <a href='https://www.huawei.com/''>Huawei</a>, 2022, 2023. Among the top 32 STEM master's students of <a href='https://www.tuwien.at/'>TU Wien</a>."
+    - "<strong>Seeds for the future Scholarship</strong> by <a href='https://www.huawei.com/'>Huawei</a>, 2022, 2023. Among the top 32 STEM master's students of <a href='https://www.tuwien.at/'>TU Wien</a>."
     - "<strong>Merit-based scholarship</strong> for outstanding academic performance, <a href='https://www.tuwien.at/'>TU Wien</a>, 2019, 2020, 2021, 2022."
+
+- title: Presentations and Talks
+  type: nested_list
+  contents:
+    - title: "2026"
+      items:
+        - "Invited Workshop: <a href='https://www.wu.ac.at/npoaustria/veranstaltungen/vergangene-veranstaltungen/workshop-energieverbrauch-von-kuenstlicher-intelligenz'>Energy Consumption of Artificial Intelligence</a> | npoAustria, WU Vienna, Apr 2026."
+    - title: "2025"
+      items:
+        - "Poster Presentation: <a href='https://doi.org/10.5281/zenodo.15100668'>Towards Energy-Efficient Split Computing: A Hardware-Software Co-Design Perspective</a> | EuroSys 2025, Rotterdam, The Netherlands, Mar 2025."
 # - title: Academic Interests
 #   type: nested_list
 #   contents:

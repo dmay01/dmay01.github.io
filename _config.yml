@@ -2,17 +2,17 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-title: blank # the website title (if blank, full name will be used instead)
+title: Daniel May # the website title (if blank, full name will be used instead)
 first_name: Daniel
 middle_name: # empty
 last_name: May
 contact_note: >
   The best way to reach me is via mail!
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  Welcome to the personal website of Daniel May. I am a PhD student at TU Wien, Austria. My research focuses on artificial intelligence. I am particularly interested in energy-efficiency and sustainability. I am passionate about research and I am always looking for new challenges. Feel free to contact me if you have any questions or if you would like to collaborate.
+  Daniel May is a PhD student at TU Wien in the Research Unit of Computational Sustainability, working on energy-efficient AI systems with a current focus on neuromorphic computing and intermediate representations for constrained and emerging hardware.
 footer_text: >
 
-keywords: machine learning, artificial intelligence, split computing, energy-efficieny, sustainability, phd, research, computer science # add your own keywords or leave empty
+keywords: machine learning, artificial intelligence, neuromorphic computing, intermediate representations, energy-efficient AI, sustainable AI, edge AI, split computing, phd, research, computer science # add your own keywords or leave empty
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: 🤖 # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
@@ -63,8 +63,6 @@ bib_search: true
 # Dimensions
 max_width: 930px
 
-# TODO: add layout settings (single page vs. multi-page)
-
 # -----------------------------------------------------------------------------
 # Open Graph & Schema.org
 # -----------------------------------------------------------------------------
@@ -93,8 +91,8 @@ bing_site_verification: # out your bing-site-verification ID (Bing Webmaster)
 # Blog
 # -----------------------------------------------------------------------------
 
-blog_name: al-folio # blog_name will be displayed in your blog page
-blog_description: a simple whitespace theme for academics
+blog_name: Daniel May # blog_name will be displayed in your blog page
+blog_description: research notes and updates
 permalink: /blog/:year/:title/
 lsi: false # produce an index for related posts
 
@@ -123,7 +121,7 @@ giscus:
   lang: en
 
 # Disqus comments (DEPRECATED)
-disqus_shortname: al-folio # put your disqus shortname
+disqus_shortname: # put your disqus shortname
 # https://help.disqus.com/en/articles/1717111-what-s-a-shortname
 
 # External sources.

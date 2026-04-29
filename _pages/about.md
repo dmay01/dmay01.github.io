@@ -28,12 +28,12 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I am a PhD student at TU Wien in the [Research Unit of **Computational Sustainability**](https://informatics.tuwien.ac.at/orgs/e191-05) (formerly the High Performance Computing Group), working with [Prof. Ivona Brandić](https://www.ec.tuwien.ac.at/~ivona/index.html) within the Institute of Computer Engineering. I work on making AI systems more sustainable and energy-efficient, especially under resource constraints.
+I am a PhD student at TU Wien in the [Research Unit of **Computational Sustainability**](https://informatics.tuwien.ac.at/orgs/e191-05), working with [Prof. Ivona Brandić](https://www.ec.tuwien.ac.at/~ivona/index.html) within the Institute of Computer Engineering. I work on energy-efficient AI systems, with a current focus on **neuromorphic computing** and **intermediate representations**.
 
-I earned my master’s degree in Business Informatics from TU Wien in 2025. My thesis focused on **split computing** for energy-efficient inference, where I used **multi-objective optimization** to balance accuracy, latency, and energy.
+I am interested in how machine-learning workloads can be represented, transformed, and executed so they map efficiently to constrained or emerging hardware. This includes systems questions around what information intermediate representations preserve, how they can target neuromorphic or edge devices, and how to evaluate the resulting trade-offs in accuracy, latency, and energy.
 
-My current interests include **split computing and adaptive offloading** across devices in the **edge–cloud** continuum, **energy profiling and DVFS** for AI workloads, and **model compression** (quantization, pruning, distillation). I’m also involved in collaborative work on federated learning.
+My previous work focused on **split computing** and **adaptive offloading** for energy-efficient Edge-AI, including multi-objective optimization of accuracy, latency, and energy. More broadly, I am interested in **energy profiling**, **DVFS**, **model compression**, and sustainability-driven application domains such as environmental monitoring, water quality analysis, and resource-efficient IoT systems.
 
-I’m passionate about making AI more sustainable and efficient. If you’re interested in collaborating or learning more about my research, feel free to reach out.
+If you are working on neuromorphic computing, sustainable AI, edge AI, or energy-aware systems, feel free to reach out.
 
-Outside research, I’m into space — rockets, telescopes, and the night sky. If you’re exploring edge/AI for space systems, I’d love to connect.
+Outside research, I’m into space — rockets, telescopes, and the night sky. I am always interested in conversations around edge AI and efficient computing for space systems.
