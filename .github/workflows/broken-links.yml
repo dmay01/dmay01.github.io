@@ -13,6 +13,7 @@ on:
       - "_pages/**"
       - "_teachings/**"
       - "assets/**"
+      - ".lycheeignore"
       - ".github/workflows/broken-links.yml"
   pull_request:
     branches:
@@ -26,6 +27,7 @@ on:
       - "_pages/**"
       - "_teachings/**"
       - "assets/**"
+      - ".lycheeignore"
       - ".github/workflows/broken-links.yml"
   workflow_dispatch:
 
