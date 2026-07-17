@@ -153,7 +153,7 @@ cv:
         end_date: 2013-07
 
     Services:
-      - bullet: "**Sub-reviewer:** ICPE 2026 (ACM/SPEC)"
+      - bullet: "**Sub-reviewer:** [Middleware 2026](https://middleware-conf.github.io/2026/); [ICPE 2026](https://icpe2026.spec.org/)"
 
     Honors and Awards:
       - title: TÜV AUSTRIA Science Award
