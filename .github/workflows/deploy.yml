@@ -7,8 +7,6 @@ on:
       - main
     paths:
       - "assets/**"
-      - "_sass/**"
-      - "_scripts/**"
       - "**.bib"
       - "**.html"
       - "**.js"
@@ -17,18 +15,12 @@ on:
       - "**.yml"
       - "Gemfile"
       - "Gemfile.lock"
-      - "!.github/workflows/axe.yml"
-      - "!.github/workflows/broken-links.yml"
-      - "!.github/workflows/deploy-docker-tag.yml"
-      - "!.github/workflows/deploy-image.yml"
-      - "!.github/workflows/docker-slim.yml"
-      - "!.github/workflows/lighthouse-badger.yml"
-      - "!.github/workflows/prettier.yml"
-      - "!lighthouse_results/**"
-      - "!CONTRIBUTING.md"
-      - "!CUSTOMIZE.md"
-      - "!FAQ.md"
-      - "!INSTALL.md"
+      - "CNAME"
+      - "!.agents/**"
+      - "!.github/**"
+      - "!docs/**"
+      - "!AGENTS.md"
+      - "!CLAUDE.md"
       - "!README.md"
   pull_request:
     branches:
@@ -36,8 +28,6 @@ on:
       - main
     paths:
       - "assets/**"
-      - "_sass/**"
-      - "_scripts/**"
       - "**.bib"
       - "**.html"
       - "**.js"
@@ -46,20 +36,18 @@ on:
       - "**.yml"
       - "Gemfile"
       - "Gemfile.lock"
-      - "!.github/workflows/axe.yml"
-      - "!.github/workflows/broken-links.yml"
-      - "!.github/workflows/deploy-docker-tag.yml"
-      - "!.github/workflows/deploy-image.yml"
-      - "!.github/workflows/docker-slim.yml"
-      - "!.github/workflows/lighthouse-badger.yml"
-      - "!.github/workflows/prettier.yml"
-      - "!lighthouse_results/**"
-      - "!CONTRIBUTING.md"
-      - "!CUSTOMIZE.md"
-      - "!FAQ.md"
-      - "!INSTALL.md"
+      - "CNAME"
+      - "!.agents/**"
+      - "!.github/**"
+      - "!docs/**"
+      - "!AGENTS.md"
+      - "!CLAUDE.md"
       - "!README.md"
   workflow_dispatch:
+
+concurrency:
+  group: deploy-${{ github.ref }}
+  cancel-in-progress: true
 
 permissions:
   contents: write
@@ -81,13 +69,13 @@ jobs:
         with:
           python-version: "3.13"
           cache: "pip" # caching pip dependencies
-      - name: Update _config.yml ⚙️
-        uses: fjogeleit/yaml-update-action@main
+      - name: Setup Node 🧰
+        uses: actions/setup-node@v4
         with:
-          commitChange: false
-          valueFile: "_config.yml"
-          propertyPath: "giscus.repo"
-          value: ${{ github.repository }}
+          node-version: "20"
+          cache: "npm"
+      - name: Install JS deps 📦
+        run: npm ci
       - name: Install and Build 🔧
         run: |
           sudo apt-get update && sudo apt-get install -y imagemagick

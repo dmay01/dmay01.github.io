@@ -28,6 +28,15 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
+<style>
+  @media (max-width: 575.98px) {
+    article > .profile.float-right {
+      float: none !important;
+      margin-left: 0;
+    }
+  }
+</style>
+
 I am a PhD student at TU Wien in the [Research Unit of **Computational Sustainability**](https://informatics.tuwien.ac.at/orgs/e191-05), working with [Prof. Ivona Brandić](https://www.ec.tuwien.ac.at/~ivona/index.html) within the Institute of Computer Engineering. I work on energy-efficient AI systems, with a current focus on **neuromorphic computing** and **intermediate representations**.
 
 I am interested in how machine-learning workloads can be represented, transformed, and executed so they map efficiently to constrained or emerging hardware. This includes systems questions around what information intermediate representations preserve, how they can target neuromorphic or edge devices, and how to evaluate the resulting trade-offs in accuracy, latency, and energy.
