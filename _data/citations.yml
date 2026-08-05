@@ -1,12 +1,12 @@
 metadata:
-  last_updated: '2026-07-27'
+  last_updated: '2026-08-05'
 papers:
   Rjteug8AAAAJ:2osOgNQ5qMEC:
     citations: 0
     title: 'Towards Energy-Efficient Split Computing: A Hardware-Software Co-Design Perspective'
     year: Unknown Year
   Rjteug8AAAAJ:9yKSN-GCB0IC:
-    citations: 2
+    citations: 3
     title: Neural network splitting for energy-efficient edge-AI
     year: '2024'
   Rjteug8AAAAJ:qjMakFHDy7sC:
