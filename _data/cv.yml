@@ -29,7 +29,7 @@ cv:
         end_date: present
         highlights:
           - Working on energy-efficient AI systems, with a current focus on neuromorphic computing and intermediate representations for constrained and emerging hardware.
-          - "**Advisor:** [Prof. Ivona Brandić](https://www.ec.tuwien.ac.at/~ivona/index.html)"
+          - "**Advisor:** [Prof. Ivona Brandić](https://informatics.tuwien.ac.at/people/ivona-brandic)"
 
       - institution: TU Wien
         location: Vienna, Austria
@@ -42,7 +42,7 @@ cv:
           - "**Average grade:** 1.1 (1 = best, 5 = worst)"
           - "**Focus:** Data analytics; management science; economic modeling"
           - "**Thesis:** Neural network splitting for energy-efficient Edge-AI"
-          - "**Advisor:** [Prof. Ivona Brandić](https://www.ec.tuwien.ac.at/~ivona/index.html)"
+          - "**Advisor:** [Prof. Ivona Brandić](https://informatics.tuwien.ac.at/people/ivona-brandic)"
           - "**Co-advisor:** [Shashikant Ilager](https://shashikantilager.com/)"
           - The thesis received a 2024 netidee Scholarship from the [Internet Foundation Austria](https://www.internetstiftung.at/).
 
@@ -93,7 +93,7 @@ cv:
         start_date: 2025-02
         end_date: present
         highlights:
-          - Member of the [Research Unit of Computational Sustainability](https://informatics.tuwien.ac.at/orgs/e191-05), led by [Prof. Ivona Brandić](https://www.ec.tuwien.ac.at/~ivona/index.html).
+          - Member of the [Research Unit of Computational Sustainability](https://informatics.tuwien.ac.at/orgs/e191-05), led by [Prof. Ivona Brandić](https://informatics.tuwien.ac.at/people/ivona-brandic).
           - Research on energy-efficient AI systems, with a current focus on neuromorphic computing and intermediate representations.
 
       - company: TU Wien
@@ -103,7 +103,7 @@ cv:
         start_date: 2024-02
         end_date: 2025-01
         highlights:
-          - Member of the HPC Research Group, led by [Prof. Ivona Brandić](https://www.ec.tuwien.ac.at/~ivona/index.html).
+          - Member of the HPC Research Group, led by [Prof. Ivona Brandić](https://informatics.tuwien.ac.at/people/ivona-brandic).
           - Research on energy-efficient computing and optimization techniques for edge AI systems.
 
       - company: myCTS
