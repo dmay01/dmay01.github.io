@@ -14,6 +14,7 @@ footer_text:
 keywords: machine learning, artificial intelligence, neuromorphic computing, intermediate representations, energy-efficient AI, sustainable AI, edge AI, split computing, phd, research, computer science # add your own keywords or leave empty
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: 🤖 # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
+apple_touch_icon: # image name in /assets/img/ (or a rooted path / absolute URL) used for iOS home-screen bookmarks
 
 url: https://www.danielmay.me # the base hostname & protocol for your site
 baseurl: # the subpath of your site, e.g. /blog/. Leave blank for root
@@ -26,8 +27,10 @@ back_to_top: true # set to false to disable the back to top button
 # -----------------------------------------------------------------------------
 
 # repo color theme
-repo_theme_light: default # https://github.com/anuraghazra/github-readme-stats/blob/master/themes/README.md
-repo_theme_dark: dark # https://github.com/anuraghazra/github-readme-stats/blob/master/themes/README.md
+repo_theme_light: default # https://github.com/stats-organization/github-stats-extended/blob/master/packages/core/src/themes/README.md
+repo_theme_dark: dark # https://github.com/stats-organization/github-stats-extended/blob/master/packages/core/src/themes/README.md
+protect_email: false
+
 repo_trophies:
   enabled: false
   theme_light: flat # https://github.com/ryo-ma/github-profile-trophy
@@ -37,7 +40,7 @@ repo_trophies:
 # To use a different instance or service for displaying GitHub stats and trophies,
 # update these URLs. These are used in the repository templates.
 external_services:
-  github_readme_stats_url: https://github-readme-stats.vercel.app
+  github_readme_stats_url: https://github-stats-extended.vercel.app
   github_profile_trophy_url: https://github-profile-trophy.vercel.app
 
 # -----------------------------------------------------------------------------
@@ -54,7 +57,7 @@ al_folio:
   distill:
     engine: distillpub-template
     source: al-org-dev/distill-template#al-folio
-    allow_remote_loader: true
+    allow_remote_loader: false
   features:
     cv:
       enabled: true
@@ -112,6 +115,8 @@ analytics:
   cronitor: # cronitor RUM analytics site ID (format: XXXXXXXXX)
   pirsch: # your Pirsch analytics site ID (length 32 characters)
   openpanel: # your Openpanel analytics client ID (format: XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX)
+  cloudflare: # your Cloudflare Web Analytics beacon token (32 hex characters)
+enable_simple_analytics: false # Simple Analytics identifies a site by its domain, so it has no ID to set above
 
 # For Google Search Console, see https://support.google.com/webmasters/answer/9008080?hl=en#meta_tag_verification&zippy=%2Chtml-tag
 google_site_verification: # your google-site-verification ID (Google Search Console)
@@ -284,6 +289,9 @@ plugins:
   - al_math
   - al_comments
   - al_newsletter
+  - al_email_protect
+  - al_marimo
+  - al_rtl
 
 # Sitemap settings
 defaults:
@@ -620,10 +628,6 @@ third_party_libraries:
     url:
       js: "https://cdn.jsdelivr.net/npm/plotly.js@{{version}}/dist/plotly.min.js"
     version: "3.0.1"
-  polyfill:
-    url:
-      js: "https://cdnjs.cloudflare.com/polyfill/v{{version}}/polyfill.min.js?features=es6"
-    version: "3"
   pseudocode:
     integrity:
       css: "sha256-VwMV//xgBPDyRFVSOshhRhzJRDyBmIACniLPpeXNUdc="
