@@ -86,6 +86,16 @@ cv:
           - "**Diploma work:** Physical Authentication System, with a focus on facial recognition"
 
     Experience:
+      - company: myCTS
+        position: Software Engineer
+        location: Austria
+        url: https://mycts.at/
+        start_date: 2026-10
+        end_date: present
+        summary: October 2026–present
+        highlights:
+          - Development and maintenance of customized software solutions using [InterSystems](https://www.intersystems.com/).
+
       - company: TU Wien
         position: PreDoc Researcher
         location: Vienna, Austria
@@ -112,6 +122,7 @@ cv:
         url: https://mycts.at/
         start_date: 2020-01
         end_date: 2026-01
+        summary: January 2020–January 2026
         highlights:
           - Developed and maintained customized software solutions using [InterSystems](https://www.intersystems.com/).
 
