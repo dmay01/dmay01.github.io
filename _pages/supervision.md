@@ -11,6 +11,12 @@ nav_order: 4
 
 Current co-supervisions.
 
+- **Ilija Kulic** — _Master’s thesis_, “LLM-Guided Spatiotemporal Scheduling for Carbon-Aware Distributed Computing” (working title), **2026–present**.<br>
+  _Keywords:_ carbon-aware computing; geographically distributed computing; LLM-based planning; spatiotemporal workload scheduling; forecast-aware scheduling.
+
+- **Simon Ripphausen** — _Master’s thesis_, “Carbon-Aware Workflow Scheduling with DVFS on Heterogeneous CPU/GPU Clusters” (working title), **2026–present**.<br>
+  _Keywords:_ carbon-aware computing; DAG workflow scheduling; dynamic voltage and frequency scaling (DVFS); heterogeneous CPU/GPU clusters; mathematical optimization.
+
 - **Tudor-Razvan Gheorghe** — _Master’s thesis_, “LoRaWAN Performance Benchmarking in Alpine IoT Environments”, **2025–present**.<br>
   _Keywords:_ LoRaWAN; alpine IoT; livestock monitoring; network performance and scalability; ChirpStack; energy-efficient communication.
 
